@@ -13,6 +13,11 @@ const Home = () => {
         const newBlogs = blogs.filter(blog => blog.id !== id);
         setBlog(newBlogs);// Update the state with the new blogs array
     }
+
+    useEffect(()=>{
+        console.log("Use effect ran")
+    })
+
     return ( 
         <div className="home">
             <BlogList blogs ={blogs} title="All Blogs!" handleDelete={handleDelete} />
