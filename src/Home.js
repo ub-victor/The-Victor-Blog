@@ -12,7 +12,6 @@ const Home = () => {
     const handleDelete = (id)=> {
         const newBlogs = blogs.filter(blog => blog.id !== id);
         setBlog(newBlogs);// Update the state with the new blogs array
-
     }
     return ( 
         <div className="home">
