@@ -7,6 +7,7 @@ const Create = () => {
         const [body, setBody] = useState("");
         const [author, setAuthor] = useState("Winner");
         const [isPending, setIsPending] = useState(false);
+        const history = useHistory();
         const handleSubm = (e) => {
             e.preventDefault();
             const blog = { title, body, author };
@@ -22,6 +23,7 @@ const Create = () => {
                 // setAuthor("Winner");
                 console.log('new blog added');
                 setIsPending(false);
+                history.go(-1);
             })
         }
 
