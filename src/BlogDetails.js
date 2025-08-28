@@ -4,6 +4,9 @@ import useFetch from "./useFetch";
 const BlogDetails = () => {
     const { id } = useParams();
     const { data: blog, error, isPending } = useFetch(`http://localhost:8000/blogs/${id}`);
+    const handleClick = () => {
+
+    }
     return ( 
         <div className="blog-details">
             { isPending && <div>Loading...</div> }
@@ -12,6 +15,7 @@ const BlogDetails = () => {
                 <article>
                     <h2>{ blog.title }</h2>
                     <p>{ blog.body }</p>
+                    <button onClick={() => handleClick(blog.id)}>Delete</button>
                 </article>
             )}
         </div>
