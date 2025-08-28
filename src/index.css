@@ -65,10 +65,15 @@
   margin-bottom: 10px;
 }
 
-.blog-details h2 {
-  margin-bottom: 12px;
+.blog-details div {
+  margin: 20px 0;
 }
 
-.blog-details p {
-  line-height: 1.6;
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
