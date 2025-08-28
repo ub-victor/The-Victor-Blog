@@ -3,6 +3,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import BlogDetails from './BlogDetails';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
              {/* Path with URL parameter: e.g., "/blogs/123" renders BlogDetails */}
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            {/* Fallback route for unmatched paths */}
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
