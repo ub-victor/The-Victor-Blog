@@ -1,16 +1,28 @@
 {
-    "blogs": [
-        {
-            "title": "My first Blog",
-            "body": "Welcome to Victo’s Blogs, where curiosity meets clarity and every post is written with you in mind. Here, you’ll find bite-sized insights, practical tips, and thoughtful perspectives on topics that matter—from everyday tech and creative ideas to personal growth and playful inspiration. We’re not just sharing information; we’re building a community of readers who enjoy learning, asking questions, and exploring new possibilities together. Dive in, join the conversation, and let Victo’s Blogs be your friendly guide to discovering something new with a fresh, approachable voice.",
-            "author": "Victor",
-            "id": 1
-        },
-        {
-            "title": "How to become stronger",
-            "body": "To become mentally strong, cultivate self-awareness and a positive mindset, set and work toward goals, and embrace challenges and change as opportunities for growth. Prioritize your physical health through exercise, good nutrition, and sufficient sleep, and manage stress with relaxation techniques like meditation and mindfulness. Build resilience by learning from mistakes, practicing gratitude, and developing problem-solving skills, while also seeking support from positive social connections and knowing when to ask for help",
-            "author": "winner",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My first Blog",
+      "body": "Welcome to Victo’s Blogs, where curiosity meets clarity and every post is written with you in mind. Here, you’ll find bite-sized insights, practical tips, and thoughtful perspectives on topics that matter—from everyday tech and creative ideas to personal growth and playful inspiration. We’re not just sharing information; we’re building a community of readers who enjoy learning, asking questions, and exploring new possibilities together. Dive in, join the conversation, and let Victo’s Blogs be your friendly guide to discovering something new with a fresh, approachable voice.",
+      "author": "Victor",
+      "id": 1
+    },
+    {
+      "title": "How to become stronger",
+      "body": "To become mentally strong, cultivate self-awareness and a positive mindset, set and work toward goals, and embrace challenges and change as opportunities for growth. Prioritize your physical health through exercise, good nutrition, and sufficient sleep, and manage stress with relaxation techniques like meditation and mindfulness. Build resilience by learning from mistakes, practicing gratitude, and developing problem-solving skills, while also seeking support from positive social connections and knowing when to ask for help",
+      "author": "winner",
+      "id": 2
+    },
+    {
+      "title": "dshdsjcx",
+      "body": "sjhsshjddshj",
+      "author": "Winner",
+      "id": 3
+    },
+    {
+      "title": "hkdasd",
+      "body": "skhAHJJHHHHHHHHHHHHHHHHHHHHHHHHHHHCcccccccccccccccccccccccccccczxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxmnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnzc,bnjjjjjjjjjjjjjjjjjjjjjsadddddjhhhhhhhhhhhhhhhhhh",
+      "author": "Winner",
+      "id": 4
+    }
+  ]
 }
