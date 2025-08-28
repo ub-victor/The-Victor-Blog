@@ -4,12 +4,12 @@ const Create = () => {
         // handle create blog logic
         const [title, setTitle] = useState("");
         const [body, setBody] = useState("");
-        const [author, setAuthor] = useState("Victor");
+        const [author, setAuthor] = useState("Winner");
 
     return ( 
         <div className="create">
             <h2>Add a New Blog</h2>
-            <form>
+            <form onSubmit={handleSubm}>
                 <label>Blog title:</label>
                 <input 
                     type="text"
@@ -32,6 +32,9 @@ const Create = () => {
                     <option value="Winner">Winner</option>
                 </select>
                 <button>Add Blog</button>
+                <p>{title}</p>
+                <p>{body}</p>
+                <p>{author}</p>
             </form>
         </div>
      );
